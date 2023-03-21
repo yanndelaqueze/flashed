@@ -54,6 +54,8 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
 gem "pundit"
 gem "geocoder"
+gem "dotenv-rails", groups: [:development, :test]
+gem "cloudinary"
 
 
 group :development, :test do
