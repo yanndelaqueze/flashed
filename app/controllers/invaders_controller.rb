@@ -1,6 +1,7 @@
 class InvadersController < ApplicationController
   skip_before_action :authenticate_user!, only: %i[index show]
-  before_action :set_run, only: %i[show edit update destroy]
+  before_action :set_invader, only: %i[show edit update destroy]
+
   def index
     @invaders = Invader.all
   end
