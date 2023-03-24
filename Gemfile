@@ -56,6 +56,7 @@ gem "pundit"
 gem "geocoder"
 gem "dotenv-rails", groups: [:development, :test]
 gem "cloudinary"
+gem 'nokogiri', '~> 1.14', '>= 1.14.2'
 
 
 group :development, :test do

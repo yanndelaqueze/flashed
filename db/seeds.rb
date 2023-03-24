@@ -1,7 +1,12 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+require "nokogiri"
+
+file = File.open("invaders.xml")
+document = Nokogiri::XML(file)
+
+document.root.xpath("Placemark").each do |placemark|
+  name = placemark.xpath("name").text
+  # coordinates = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')
+  longitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[0]
+  latitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[1]
+  puts "#{name} / #{longitude} / #{latitude}"
+end
