@@ -95,7 +95,8 @@
     </Style>
     <Placemark>
       <name>PA_001</name>
-      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <description>destroyed</description>
+      <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
       <Point>
         <coordinates>
           2.3780317,48.8518759,0
@@ -104,7 +105,8 @@
     </Placemark>
     <Placemark>
       <name>PA_002</name>
-      <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
           2.3504852,48.8610742,0
@@ -113,7 +115,8 @@
     </Placemark>
     <Placemark>
       <name>PA_003</name>
-      <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
           2.3484827,48.8488012,0
@@ -122,7 +125,8 @@
     </Placemark>
     <Placemark>
       <name>PA_004</name>
-      <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+      <description>damaged</description>
+      <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
           2.3510725,48.8471423,0
@@ -131,7 +135,8 @@
     </Placemark>
     <Placemark>
       <name>PA_005</name>
-      <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+      <description>damaged</description>
+      <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
           2.3337775,48.8518168,0
@@ -6495,6 +6500,15 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>PA_0801</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3317648,48.8571876,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>PA_0802</name>
       <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
       <Point>
@@ -6527,6 +6541,24 @@
       <Point>
         <coordinates>
           2.3754723,48.8206354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PA_0806</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3754142,48.8206097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PA_0807</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3754651,48.8206159,0
         </coordinates>
       </Point>
     </Placemark>
@@ -6684,11 +6716,29 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>PA_0826</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3781012,48.8723,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>PA_0827</name>
       <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
       <Point>
         <coordinates>
           2.3993877,48.8634162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PA_0828</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.399107,48.854755,0
         </coordinates>
       </Point>
     </Placemark>
@@ -7126,6 +7176,15 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>PA_0877</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.4247092,48.8561101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>PA_0878</name>
       <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
       <Point>
@@ -7176,6 +7235,15 @@
       <Point>
         <coordinates>
           2.3713017,48.8895658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PA_0884</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3659063,48.8815493,0
         </coordinates>
       </Point>
     </Placemark>
@@ -7231,6 +7299,15 @@
       <Point>
         <coordinates>
           2.33434,48.8945559,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PA_0891</name>
+      <styleUrl>#icon-1899-BDBDBD-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          2.3172516,48.8860134,0
         </coordinates>
       </Point>
     </Placemark>

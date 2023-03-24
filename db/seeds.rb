@@ -8,5 +8,6 @@ document.root.xpath("Placemark").each do |placemark|
   # coordinates = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')
   longitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[0]
   latitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[1]
-  puts "#{name} / #{longitude} / #{latitude}"
+  status = placemark.xpath("description").text
+  puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
