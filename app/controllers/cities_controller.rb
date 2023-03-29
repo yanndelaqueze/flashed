@@ -4,16 +4,10 @@ class CitiesController < ApplicationController
 
   def index
     @cities = City.all
-  end
-
-  def markers
-    @cities = City.all
     @markers = @cities.geocoded.map do |city|
       {
         lat: city.latitude,
-        lng: city.longitude,
-        city_info_map_html: render_to_string(partial: "city_info_map", locals: { city: city }),
-        city_marker_html: render_to_string(partial: "city_marker", locals: { city: city })
+        lng: city.longitude
       }
     end
   end

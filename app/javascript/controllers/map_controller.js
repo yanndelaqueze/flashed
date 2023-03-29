@@ -20,14 +20,15 @@ export default class extends Controller {
     // this.map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
     //   mapboxgl: mapboxgl }))
   }
+
   #addMarkersToMap() {
     this.markersValue.forEach((marker) => {
-      const popup = new mapboxgl.Popup({offset: 15}).setHTML(marker.city_info_map_html)
-      const customMarker = document.createElement("div")
-      customMarker.innerHTML = marker.city_marker_html
+      // const popup = new mapboxgl.Popup({offset: 15}).setHTML(marker.city_info_map_html)
+      // const customMarker = document.createElement("div")
+      // customMarker.innerHTML = marker.city_marker_html
       new mapboxgl.Marker(customMarker)
         .setLngLat([ marker.lng, marker.lat ])
-        .setPopup(popup)
+        // .setPopup(popup)
         .addTo(this.map)
       });
   }
