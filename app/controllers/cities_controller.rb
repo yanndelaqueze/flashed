@@ -10,8 +10,8 @@ class CitiesController < ApplicationController
     @cities = City.all
     @markers = @cities.geocoded.map do |city|
       {
-        lat: city.lat,
-        lng: city.lng,
+        lat: city.latitude,
+        lng: city.longitude,
         city_info_map_html: render_to_string(partial: "city_info_map", locals: { city: city }),
         city_marker_html: render_to_string(partial: "city_marker", locals: { city: city })
       }
