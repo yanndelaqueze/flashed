@@ -13,18 +13,24 @@ paris = City.new(
 paris.save!
 puts "Created Paris"
 
-# puts "Creating Paris Invaders"
-# file = File.open("paris_invaders.xml")
-# document = Nokogiri::XML(file)
-# document.root.xpath("Placemark").each do |placemark|
-#   name = placemark.xpath("name").text
-#   # coordinates = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')
-#   longitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[0]
-#   latitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[1]
-#   status = placemark.xpath("description").text
-#   puts "#{name} / #{longitude} / #{latitude} / #{status}"
-# end
-# puts "Created Paris Invaders"
+puts "Creating Paris Invaders"
+file = File.open("db/paris_invaders.xml")
+document = Nokogiri::XML(file)
+document.root.xpath("Placemark").each do |placemark|
+  name = placemark.xpath("name").text
+  longitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[0]
+  latitude = placemark.xpath("Point/coordinates").text.gsub(' ', '').gsub(/\n/, '').split(',')[1]
+  status = placemark.xpath("description").text
+  Invader.create!(
+    name: name,
+    longitude: longitude,
+    latitude: latitude,
+    status: status,
+    city: paris
+  )
+  puts "#{name} / #{longitude} / #{latitude} / #{status}"
+end
+puts "Created Paris Invaders"
 
 puts "Creating Fontainebleau"
 fontainebleau = City.new(
