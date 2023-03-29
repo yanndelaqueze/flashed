@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder"
+// import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder"
 
 // Connects to data-controller="map"
 export default class extends Controller {
@@ -8,8 +8,8 @@ export default class extends Controller {
     markers: Array
   }
   connect() {
+    console.log("Map connected")
     mapboxgl.accessToken = this.apiKeyValue
-
     this.map = new mapboxgl.Map({
       container: this.element,
       style: "mapbox://styles/mapbox/streets-v10"
@@ -26,7 +26,7 @@ export default class extends Controller {
       // const popup = new mapboxgl.Popup({offset: 15}).setHTML(marker.city_info_map_html)
       // const customMarker = document.createElement("div")
       // customMarker.innerHTML = marker.city_marker_html
-      new mapboxgl.Marker(customMarker)
+      new mapboxgl.Marker()
         .setLngLat([ marker.lng, marker.lat ])
         // .setPopup(popup)
         .addTo(this.map)
