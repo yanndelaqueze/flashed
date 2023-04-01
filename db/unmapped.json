@@ -1,0 +1,265 @@
+{
+  "title": "Unmapped",
+  "Paris": [
+    {
+      "name": "PA_0057",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0101",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0153",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0154",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0199",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0244",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0276",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0281",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0284",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0289",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0518",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0519",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0538",
+      "status": "dead"
+    },
+    {
+      "name": "PA_0569",
+      "status": "damaged"
+    },
+    {
+      "name": "PA_0746",
+      "status": "dead"
+    },
+    {
+      "name": "PA_1041",
+      "status": "alive"
+    },
+    {
+      "name": "PA_1042",
+      "status": "alive"
+    },
+    {
+      "name": "PA_1043",
+      "status": "alive"
+    },
+    {
+      "name": "PA_1048",
+      "status": "alive"
+    },
+    {
+      "name": "PA_1238",
+      "status": "alive"
+    }
+  ],
+  "Marseille": [
+    {
+      "name": "MARS_03",
+      "status": "X"
+    },
+    {
+      "name": "MARS_04",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_67",
+      "status": "dead"
+    },
+    {
+      "name": "MARS_69",
+      "status": "dead"
+    },
+    {
+      "name": "MARS_70",
+      "status": "dead"
+    },
+    {
+      "name": "MARS_83",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_84",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_85",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_86",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_87",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_88",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_89",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_90",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_91",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_92",
+      "status": "dead"
+    },
+    {
+      "name": "MARS_93",
+      "status": "alive"
+    },
+    {
+      "name": "MARS_94",
+      "status": "dead"
+    },
+    {
+      "name": "MARS_95",
+      "status": "dead"
+    }
+  ],
+  "Lyon": [
+    {
+      "name": "LY_08",
+      "status": "dead"
+    },
+    {
+      "name": "LY_09",
+      "status": "dead"
+    },
+    {
+      "name": "LY_10",
+      "status": "dead"
+    },
+    {
+      "name": "LY_11",
+      "status": "alive"
+    },
+    {
+      "name": "LY_36",
+      "status": "alive"
+    },
+    {
+      "name": "LY_39",
+      "status": "alive"
+    },
+    {
+      "name": "LY_42",
+      "status": "dead"
+    },
+    {
+      "name": "LY_48",
+      "status": "dead"
+    }
+  ],
+  "Basel": [
+    {
+      "name": "BSL_01",
+      "status": "dead"
+    },
+    {
+      "name": "BSL_07",
+      "status": "alive"
+    },
+    {
+      "name": "BSL_20",
+      "status": "alive"
+    },
+    {
+      "name": "BSL_21",
+      "status": "dead"
+    },
+    {
+      "name": "BSL_22",
+      "status": "alive"
+    },
+    {
+      "name": "BSL_24",
+      "status": "alive"
+    }
+  ],
+  "Versailles": [
+    {
+      "name": "VRS_23",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_24",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_25",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_26",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_27",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_28",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_29",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_30",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_31",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_32",
+      "status": "dead"
+    },
+    {
+      "name": "VRS_33",
+      "status": "dead"
+    }
+  ]
+}
