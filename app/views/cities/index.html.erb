@@ -1,8 +1,15 @@
 
-<div class="container">
+<div class="container-cities">
+  <h1>World Invasion</h1>
   <div style="width: 100%; height: 600px;"
     data-controller="map"
     data-map-markers-value="<%= @markers.to_json %>"
     data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
   </div>
+  <h2>Cities :</h2>
+  <ul>
+    <% @cities.each do |city| %>
+      <li> <%= link_to city.name, city_path(city) %></li>
+    <% end %>
+  </ul>
 </div>

@@ -13,6 +13,7 @@ class CitiesController < ApplicationController
   end
 
   def show
+    @invaders = @city.invaders
   end
 
   private

@@ -292,5 +292,3 @@ document.root.xpath("Placemark").each do |placemark|
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
 puts "Created Lyon Invaders"
-
-puts "Creating Unmapped Invaders"

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Document>
+    <name>Space Invaders Lille</name>
+    <Style id="icon-1899-BDBDBD-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-BDBDBD-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-BDBDBD">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-BDBDBD-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-BDBDBD-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>LIL_01</name>
+      <description>dead</description>
+      <styleUrl>#icon-1899-BDBDBD</styleUrl>
+      <Point>
+        <coordinates>
+          3.0660508,50.6422115,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIL_02</name>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          3.0613434,50.6395191,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIL_03
+</name>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          3.059489,50.6410037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIL_04</name>
+      <description>dead</description>
+      <styleUrl>#icon-1899-BDBDBD</styleUrl>
+      <Point>
+        <coordinates>
+          3.0636814,50.6363426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LIL_05</name>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
+      <Point>
+        <coordinates>
+          3.0620852,50.6389303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
