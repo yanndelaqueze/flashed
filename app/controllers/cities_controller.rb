@@ -10,6 +10,7 @@ class CitiesController < ApplicationController
         lng: city.longitude
       }
     end
+    @countries = City.select(:country).map(&:country).uniq
   end
 
   def show

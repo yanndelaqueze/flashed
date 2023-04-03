@@ -8,8 +8,13 @@
   </div>
   <h2>Cities :</h2>
   <ul>
-    <% @cities.each do |city| %>
-      <li> <%= link_to city.name, city_path(city) %></li>
+    <% @countries.each do |country| %>
+      <h2><%= country %></h2>
+      <ul>
+      <% @cities.where(country: country).each do |city| %>
+        <li> <%= link_to city.name, city_path(city) %></li>
+      <% end %>
+      </ul>
     <% end %>
   </ul>
 </div>
