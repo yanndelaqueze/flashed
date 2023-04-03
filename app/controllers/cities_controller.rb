@@ -14,6 +14,7 @@ class CitiesController < ApplicationController
 
   def show
     @invaders = @city.invaders
+    authorize @city
   end
 
   private

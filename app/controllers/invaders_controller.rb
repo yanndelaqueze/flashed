@@ -7,6 +7,7 @@ class InvadersController < ApplicationController
   end
 
   def show
+    authorize @invader
   end
 
   def new
