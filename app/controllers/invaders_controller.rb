@@ -7,6 +7,7 @@ class InvadersController < ApplicationController
   end
 
   def show
+    @city = @invader.city
     authorize @invader
   end
 
