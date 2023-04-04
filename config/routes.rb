@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     resources :invaders, only: %i[new create]
   end
 
+  get '/radar', to: 'pages#radar'
+
   resources :invaders, only: %i[show index edit update destroy] do
     resources :bookmarks, only: %i[new create]
   end

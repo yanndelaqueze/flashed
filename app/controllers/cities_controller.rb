@@ -14,7 +14,7 @@ class CitiesController < ApplicationController
   end
 
   def show
-    @invaders = @city.invaders
+    @invaders = @city.invaders.order(name: :asc)
     authorize @city
   end
 
