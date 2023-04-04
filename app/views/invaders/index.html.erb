@@ -7,6 +7,12 @@
             class: "form-control",
             placeholder: "Search for Invaders"
         %>
+      <%= check_box_tag "status[]", "alive", false %>
+      <%= label_tag "Alive", class:"label" %>
+      <%= check_box_tag "status[]", "damaged", false %>
+      <%= label_tag "Damaged", class:"label" %>
+      <%= check_box_tag "status[]", "dead", false %>
+      <%= label_tag "Dead", class:"label"%>
       <%= submit_tag "Search", name: "", class: "btn btn-primary" %>
     <% end %>
   </div>

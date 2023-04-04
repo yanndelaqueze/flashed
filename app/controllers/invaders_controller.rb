@@ -4,12 +4,12 @@ class InvadersController < ApplicationController
 
   def index
     @invaders = Invader.all
-    if params[:query].present?
+    if params[:query].present? || params[:status].present?
       sql_subquery = <<~SQL
-        invaders.name ILIKE :query
-        OR cities.name ILIKE :query
+        (invaders.name ILIKE :query
+        OR cities.name ILIKE :query)
       SQL
-      @invaders = @invaders.joins(:city).where(sql_subquery, query: "%#{params[:query]}%")
+      @invaders = @invaders.joins(:city).where(sql_subquery, query: "%#{params[:query]}%").where(status: params[:status])
     end
   end
 
