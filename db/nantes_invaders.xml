@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Document>
     <name>Space Invaders Nantes</name>
-    <Style id="icon-1899-BDBDBD-nodesc-normal">
+    <Style id="icon-1899-BDBDBD-normal">
       <IconStyle>
         <color>ffbdbdbd</color>
         <scale>1</scale>
@@ -13,11 +13,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-BDBDBD-nodesc-highlight">
+    <Style id="icon-1899-BDBDBD-highlight">
       <IconStyle>
         <color>ffbdbdbd</color>
         <scale>1</scale>
@@ -29,21 +26,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-BDBDBD-nodesc">
+    <StyleMap id="icon-1899-BDBDBD">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-BDBDBD-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-BDBDBD-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-BDBDBD-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-BDBDBD-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-F57C00-nodesc-normal">
+    <Style id="icon-1899-F57C00-normal">
       <IconStyle>
         <color>ff007cf5</color>
         <scale>1</scale>
@@ -55,11 +49,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-F57C00-nodesc-highlight">
+    <Style id="icon-1899-F57C00-highlight">
       <IconStyle>
         <color>ff007cf5</color>
         <scale>1</scale>
@@ -71,23 +62,21 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-F57C00-nodesc">
+    <StyleMap id="icon-1899-F57C00">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>NA_01</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           -1.5458166,47.2155795,0
@@ -96,7 +85,8 @@
     </Placemark>
     <Placemark>
       <name>NA_02</name>
-      <styleUrl>#icon-1899-BDBDBD-nodesc</styleUrl>
+      <description>dead</description>
+      <styleUrl>#icon-1899-BDBDBD</styleUrl>
       <Point>
         <coordinates>
           -1.5425792,47.2160329,0
@@ -105,7 +95,8 @@
     </Placemark>
     <Placemark>
       <name>NA_03</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           -1.5487547,47.21697,0

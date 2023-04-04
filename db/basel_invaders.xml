@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Document>
     <name>Space invaders Bâle</name>
-    <Style id="icon-1899-7CB342-nodesc-normal">
+    <Style id="icon-1899-7CB342-normal">
       <IconStyle>
         <color>ff42b37c</color>
         <scale>1</scale>
@@ -13,11 +13,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-7CB342-nodesc-highlight">
+    <Style id="icon-1899-7CB342-highlight">
       <IconStyle>
         <color>ff42b37c</color>
         <scale>1</scale>
@@ -29,21 +26,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-7CB342-nodesc">
+    <StyleMap id="icon-1899-7CB342">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-F57C00-nodesc-normal">
+    <Style id="icon-1899-F57C00-normal">
       <IconStyle>
         <color>ff007cf5</color>
         <scale>1</scale>
@@ -55,11 +49,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-F57C00-nodesc-highlight">
+    <Style id="icon-1899-F57C00-highlight">
       <IconStyle>
         <color>ff007cf5</color>
         <scale>1</scale>
@@ -71,23 +62,21 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-F57C00-nodesc">
+    <StyleMap id="icon-1899-F57C00">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>BSL_02</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5910401,47.5520311,0
@@ -96,7 +85,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_03</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5867702,47.5574809,0
@@ -105,7 +95,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_04</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5962906,47.5636335,0
@@ -114,7 +105,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_05</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5912385,47.5650604,0
@@ -123,7 +115,8 @@
     </Placemark>
     <Placemark>
       <name>BLS_06</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5877627,47.5565578,0
@@ -132,7 +125,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_08</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.6002427,47.562124,0
@@ -141,7 +135,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_09</name>
-      <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
       <Point>
         <coordinates>
           7.5881658,47.5500384,0
@@ -150,7 +145,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_10</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5929769,47.5478831,0
@@ -159,7 +155,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_11</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5986692,47.5737209,0
@@ -168,7 +165,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_12</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5966786,47.5574481,0
@@ -177,7 +175,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_13</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5980917,47.55961,0
@@ -186,7 +185,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_14</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5894461,47.5660758,0
@@ -195,7 +195,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_15</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5952094,47.5533739,0
@@ -204,7 +205,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_16</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5950768,47.553219,0
@@ -213,7 +215,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_17</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5947239,47.5515998,0
@@ -222,7 +225,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_18</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5899303,47.5548564,0
@@ -231,7 +235,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_19</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5828539,47.563496,0
@@ -240,7 +245,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_23</name>
-      <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-F57C00</styleUrl>
       <Point>
         <coordinates>
           7.5888501,47.5540666,0
@@ -249,7 +255,8 @@
     </Placemark>
     <Placemark>
       <name>BSL_25</name>
-      <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
       <Point>
         <coordinates>
           7.5980368,47.562998,0

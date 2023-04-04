@@ -6,10 +6,6 @@ export default class extends Controller {
 
   connect() {
     console.log("user location controller is live")
-  }
-
-  getCoordinates(event) {
-    event.preventDefault();
     navigator.geolocation.getCurrentPosition((info) => {
       const lat = info.coords.latitude;
       const lon = info.coords.longitude;
@@ -17,4 +13,14 @@ export default class extends Controller {
       this.coordinatesTarget.innerText = `Coordinates : ${lat}, ${lon}`
     });
   }
+
+  // getCoordinates(event) {
+  //   event.preventDefault();
+  //   navigator.geolocation.getCurrentPosition((info) => {
+  //     const lat = info.coords.latitude;
+  //     const lon = info.coords.longitude;
+  //     console.log(`${lat}, ${lon}`);
+  //     this.coordinatesTarget.innerText = `Coordinates : ${lat}, ${lon}`
+  //   });
+  // }
 }

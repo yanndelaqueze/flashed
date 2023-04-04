@@ -11,19 +11,6 @@
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
     </Style>
-    <Style id="icon-1899-7CB342-labelson-nodesc">
-      <IconStyle>
-        <color>ff42b37c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
     <Style id="icon-1899-A52714-labelson">
       <IconStyle>
         <color>ff1427a5</color>
@@ -46,7 +33,7 @@
     </Style>
     <Placemark>
       <name>Mars_01</name>
-      <description>Rue Honnorat (Gare St Charles)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -56,7 +43,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_02</name>
-      <description>Rue Sainte / Rue de la Paix Marcel Paul (Le Pazou)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -66,7 +53,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_05</name>
-      <description>Cours Julien / rue Crudère (Le Surcouf)</description>
+      <description>dead</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -76,7 +63,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_06</name>
-      <description>Cours Julien (BioCBon)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -86,7 +73,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_07</name>
-      <description>Cours Julien / Rue Jean Roque (Sarong Juice Bar)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -96,7 +83,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_08</name>
-      <description>Rue du Petit Puits / Rue des Pistoles (Panier)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -106,7 +93,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_09</name>
-      <description>Rue Beauregard / Montée des Accoules (Panier)</description>
+      <description>dead</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -116,7 +103,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_10</name>
-      <description>Rue du Général Leclerc</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -126,7 +113,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_11</name>
-      <description><![CDATA[Bvd d'Athènes / Rue des Dominicaines]]></description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -136,7 +123,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_12</name>
-      <description>Rue Saint Thomé / Place de Lenche</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -146,7 +133,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_13</name>
-      <description>Bvd de la Liberté / rue Villeneuve (Coiffure Aissa)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -156,7 +143,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_14</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4053074,43.2969154,0
@@ -165,7 +153,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_15</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3147654,43.3605522,0
@@ -174,7 +163,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_16</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3140484,43.3612643,0
@@ -183,7 +173,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_17</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3126669,43.3611143,0
@@ -192,7 +183,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_18</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>dead</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3107566,43.3609193,0
@@ -201,7 +193,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_19</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3623906,43.3479166,0
@@ -210,7 +203,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_20</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3732618,43.3203251,0
@@ -219,7 +213,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_21</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3603508,43.3264986,0
@@ -228,7 +223,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_22</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4164609,43.2262761,0
@@ -237,7 +233,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_23</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4367137,43.2299527,0
@@ -246,7 +243,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_24</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4230596,43.357585,0
@@ -255,7 +253,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_25</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4386774,43.3518627,0
@@ -264,7 +263,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_26</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4274866,43.3305656,0
@@ -273,7 +273,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_27</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4136641,43.3283153,0
@@ -282,7 +283,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_28</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4080848,43.3190326,0
@@ -291,7 +293,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_29</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4042444,43.3168051,0
@@ -300,7 +303,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_30</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3850753,43.2991944,0
@@ -309,7 +313,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_31</name>
-      <description>Mucem / Vieux Port</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -319,7 +323,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_32</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3557035,43.294798,0
@@ -328,7 +333,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_33</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3858092,43.2952294,0
@@ -337,7 +343,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_34</name>
-      <description>Place du 5 novembre</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -347,7 +353,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_35</name>
-      <description>Rue Beausset (Resto Arménien)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -357,7 +363,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_36</name>
-      <description>Cours Belsunce / rue Tapis Vert</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -367,7 +373,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_37</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4278403,43.2776832,0
@@ -376,7 +383,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_38</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4059511,43.2959918,0
@@ -385,7 +393,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_39</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3826896,43.2927447,0
@@ -394,7 +403,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_40</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4147832,43.3041644,0
@@ -403,7 +413,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_41</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3910025,43.295101,0
@@ -412,7 +423,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_42</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3674325,43.2843066,0
@@ -421,7 +433,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_43</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3682763,43.2894916,0
@@ -430,7 +443,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_44</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3773719,43.2921985,0
@@ -439,7 +453,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_45</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3786885,43.2890856,0
@@ -448,7 +463,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_46</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.365811,43.3060429,0
@@ -457,7 +473,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_47</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.366427,43.2986586,0
@@ -466,7 +483,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_48</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3844916,43.2946382,0
@@ -475,7 +493,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_49</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3535715,43.2126083,0
@@ -484,7 +503,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_50</name>
-      <description>Les Goudes (Tuba)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -494,7 +513,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_51</name>
-      <description>Bvd des Dames / Quai de la Joliette (Cie Générale Transatlantique)</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -504,7 +523,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_52</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>dead</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3690404,43.2992452,0
@@ -513,7 +533,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_53</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.368868,43.296262,0
@@ -522,7 +543,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_54</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3685458,43.2976342,0
@@ -531,7 +553,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_55</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3706546,43.2980095,0
@@ -540,7 +563,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_56</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3726201,43.2968386,0
@@ -549,7 +573,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_57</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3802838,43.2990042,0
@@ -558,7 +583,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_58</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3636982,43.2956621,0
@@ -567,7 +593,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_59</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3558938,43.2910534,0
@@ -576,7 +603,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_60</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3501429,43.2852017,0
@@ -585,7 +613,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_61</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3518053,43.2854517,0
@@ -594,7 +623,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_62</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3505897,43.2854333,0
@@ -603,7 +633,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_63</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3504052,43.2828099,0
@@ -612,7 +643,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_64</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3489541,43.2826001,0
@@ -621,7 +653,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_65</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3521623,43.2800692,0
@@ -630,7 +663,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_66</name>
-      <description>Le Petit Nice</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -640,7 +673,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_68</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.348456,43.2832128,0
@@ -649,7 +683,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_71</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>dead</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3618729,43.2382403,0
@@ -658,7 +693,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_72</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4549042,43.2827529,0
@@ -667,7 +703,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_73</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.4203006,43.2103341,0
@@ -676,7 +713,7 @@
     </Placemark>
     <Placemark>
       <name>Mars_74</name>
-      <description><![CDATA[Musée d'Art Contemporain]]></description>
+      <description>dead</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -686,7 +723,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_75</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3803189,43.3020383,0
@@ -695,7 +733,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_76</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3831817,43.3023566,0
@@ -704,7 +743,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_77</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3812403,43.2973673,0
@@ -713,7 +753,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_78</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3831954,43.2911752,0
@@ -722,7 +763,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_79</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.374692,43.2947944,0
@@ -731,7 +773,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_80</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3991252,43.2836313,0
@@ -740,7 +783,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_81</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3993514,43.2791852,0
@@ -749,7 +793,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_82</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3829379,43.2935165,0
@@ -758,7 +803,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_96</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3951454,43.2619543,0
@@ -767,7 +813,8 @@
     </Placemark>
     <Placemark>
       <name>Mars_97</name>
-      <styleUrl>#icon-1899-7CB342-labelson-nodesc</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
         <coordinates>
           5.3964275,43.2609503,0
