@@ -1,12 +1,6 @@
 .navbar-flashed {
   justify-content: space-between;
-  background-color: transparent;
-  color: white;
-  position: fixed;
-  overflow: hidden;
-  height: 10vh;
-  width: 100%;
-  z-index: 100;
+  background: black;
 }
 
 .navbar-flashed .navbar-collapse {
@@ -15,4 +9,8 @@
 
 .navbar-flashed .navbar-brand img {
   width: 60px;
+}
+
+.nav-item .dropdown {
+  color: black !important;
 }
