@@ -1,16 +1,25 @@
 .navbar-flashed {
+  display: flex;
   justify-content: space-between;
-  background: black;
-}
-
-.navbar-flashed .navbar-collapse {
-  flex-grow: 0;
+  padding: 5px;
+  align-items: center;
 }
 
 .navbar-flashed .navbar-brand img {
   width: 60px;
 }
 
-.nav-item .dropdown {
-  color: black !important;
+.navbar-flashed .navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-flashed .nav-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar-flashed .navbar-items img {
+  background-color: white;
 }

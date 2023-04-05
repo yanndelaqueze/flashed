@@ -1,31 +1,16 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-flashed">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <%= image_tag "logo.png", alt:"Flashed", class: "img"%>
-</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Invaders</a>
-          </li>
-          <li class="nav-item dropdown">
-            <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="app/assets/images/avatar.png" />
-            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
-            </div>
-          </li>
-          <!--li class="nav-item"-->
-          <!--/li-->
-      </ul>
+<div class="navbar-flashed">
+  <a class="navbar-brand" href="#">
+    <%= image_tag "logo.png", alt:"Flashed", class: "img"%>
+  </a>
+  <div class="navbar-items">
+    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="#">Radar</a>
+    <a class="nav-link" href="#">MyInvaders</a>
+    <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="<%= asset_path('avatar.png') %>" />
+    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
     </div>
   </div>
 </div>
