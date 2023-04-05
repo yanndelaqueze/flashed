@@ -1,9 +1,10 @@
 .navbar-flashed {
   justify-content: space-between;
-  background: rgb(2, 0, 0);
+  background-color: transparent;
   color: white;
   position: fixed;
   overflow: hidden;
+  height: 10vh;
   width: 100%;
   z-index: 100;
 }
@@ -13,5 +14,5 @@
 }
 
 .navbar-flashed .navbar-brand img {
-  width: 40px;
+  width: 60px;
 }
