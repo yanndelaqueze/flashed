@@ -3,13 +3,13 @@ class InvadersController < ApplicationController
   before_action :set_invader, only: %i[show edit update destroy]
 
   def index
-    @invaders = Invader.all
+    @invaders = Invader.all.order(name: :asc)
     if params[:query].present? || params[:status].present?
       sql_subquery = <<~SQL
         (invaders.name ILIKE :query
         OR cities.name ILIKE :query)
       SQL
-      @invaders = @invaders.joins(:city).where(sql_subquery, query: "%#{params[:query]}%").where(status: params[:status])
+      @invaders = @invaders.joins(:city).where(sql_subquery, query: "%#{params[:query]}%").where(status: params[:status]).order(name: :asc)
     end
   end
 

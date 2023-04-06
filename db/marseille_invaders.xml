@@ -32,7 +32,7 @@
       </IconStyle>
     </Style>
     <Placemark>
-      <name>Mars_01</name>
+      <name>MARS_01</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -42,7 +42,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_02</name>
+      <name>MARS_02</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -52,7 +52,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_05</name>
+      <name>MARS_05</name>
       <description>dead</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -62,7 +62,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_06</name>
+      <name>MARS_06</name>
       <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -72,7 +72,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_07</name>
+      <name>MARS_07</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -82,7 +82,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_08</name>
+      <name>MARS_08</name>
       <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -92,7 +92,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_09</name>
+      <name>MARS_09</name>
       <description>dead</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -102,7 +102,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_10</name>
+      <name>MARS_10</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -112,7 +112,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_11</name>
+      <name>MARS_11</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -122,7 +122,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_12</name>
+      <name>MARS_12</name>
       <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -132,7 +132,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_13</name>
+      <name>MARS_13</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -142,7 +142,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_14</name>
+      <name>MARS_14</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -152,7 +152,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_15</name>
+      <name>MARS_15</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -162,7 +162,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_16</name>
+      <name>MARS_16</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -172,7 +172,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_17</name>
+      <name>MARS_17</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -182,7 +182,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_18</name>
+      <name>MARS_18</name>
       <description>dead</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -192,7 +192,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_19</name>
+      <name>MARS_19</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -202,7 +202,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_20</name>
+      <name>MARS_20</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -212,7 +212,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_21</name>
+      <name>MARS_21</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -222,7 +222,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_22</name>
+      <name>MARS_22</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -232,7 +232,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_23</name>
+      <name>MARS_23</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -242,7 +242,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_24</name>
+      <name>MARS_24</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -252,7 +252,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_25</name>
+      <name>MARS_25</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -262,7 +262,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_26</name>
+      <name>MARS_26</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -272,7 +272,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_27</name>
+      <name>MARS_27</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -282,7 +282,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_28</name>
+      <name>MARS_28</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -292,7 +292,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_29</name>
+      <name>MARS_29</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -302,7 +302,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_30</name>
+      <name>MARS_30</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -312,7 +312,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_31</name>
+      <name>MARS_31</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -322,7 +322,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_32</name>
+      <name>MARS_32</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -332,7 +332,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_33</name>
+      <name>MARS_33</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -342,7 +342,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_34</name>
+      <name>MARS_34</name>
       <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -352,7 +352,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_35</name>
+      <name>MARS_35</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -362,7 +362,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_36</name>
+      <name>MARS_36</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -372,7 +372,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_37</name>
+      <name>MARS_37</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -382,7 +382,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_38</name>
+      <name>MARS_38</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -392,7 +392,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_39</name>
+      <name>MARS_39</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -402,7 +402,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_40</name>
+      <name>MARS_40</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -412,7 +412,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_41</name>
+      <name>MARS_41</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -422,7 +422,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_42</name>
+      <name>MARS_42</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -432,7 +432,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_43</name>
+      <name>MARS_43</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -442,7 +442,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_44</name>
+      <name>MARS_44</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -452,7 +452,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_45</name>
+      <name>MARS_45</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -462,7 +462,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_46</name>
+      <name>MARS_46</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -472,7 +472,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_47</name>
+      <name>MARS_47</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -482,7 +482,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_48</name>
+      <name>MARS_48</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -492,7 +492,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_49</name>
+      <name>MARS_49</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -502,7 +502,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_50</name>
+      <name>MARS_50</name>
       <description>alive</description>
       <styleUrl>#icon-1899-A52714-labelson</styleUrl>
       <Point>
@@ -512,7 +512,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_51</name>
+      <name>MARS_51</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -522,7 +522,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_52</name>
+      <name>MARS_52</name>
       <description>dead</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -532,7 +532,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_53</name>
+      <name>MARS_53</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -542,7 +542,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_54</name>
+      <name>MARS_54</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -552,7 +552,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_55</name>
+      <name>MARS_55</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -562,7 +562,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_56</name>
+      <name>MARS_56</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -572,7 +572,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_57</name>
+      <name>MARS_57</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -582,7 +582,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_58</name>
+      <name>MARS_58</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -592,7 +592,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_59</name>
+      <name>MARS_59</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -602,7 +602,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_60</name>
+      <name>MARS_60</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -612,7 +612,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_61</name>
+      <name>MARS_61</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -622,7 +622,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_62</name>
+      <name>MARS_62</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -632,7 +632,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_63</name>
+      <name>MARS_63</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -642,7 +642,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_64</name>
+      <name>MARS_64</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -652,7 +652,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_65</name>
+      <name>MARS_65</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -662,7 +662,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_66</name>
+      <name>MARS_66</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -672,7 +672,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_68</name>
+      <name>MARS_68</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -682,7 +682,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_71</name>
+      <name>MARS_71</name>
       <description>dead</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -692,7 +692,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_72</name>
+      <name>MARS_72</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -702,7 +702,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_73</name>
+      <name>MARS_73</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -712,7 +712,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_74</name>
+      <name>MARS_74</name>
       <description>dead</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -722,7 +722,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_75</name>
+      <name>MARS_75</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -732,7 +732,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_76</name>
+      <name>MARS_76</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -742,7 +742,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_77</name>
+      <name>MARS_77</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -752,7 +752,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_78</name>
+      <name>MARS_78</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -762,7 +762,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_79</name>
+      <name>MARS_79</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -772,7 +772,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_80</name>
+      <name>MARS_80</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -782,7 +782,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_81</name>
+      <name>MARS_81</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -792,7 +792,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_82</name>
+      <name>MARS_82</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -802,7 +802,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_96</name>
+      <name>MARS_96</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>
@@ -812,7 +812,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Mars_97</name>
+      <name>MARS_97</name>
       <description>alive</description>
       <styleUrl>#icon-1899-7CB342-labelson</styleUrl>
       <Point>

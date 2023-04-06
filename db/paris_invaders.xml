@@ -42,7 +42,7 @@
       </IconStyle>
     </Style>
     <Placemark>
-      <name>PA_001</name>
+      <name>PA_0001</name>
       <description>dead</description>
       <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
       <Point>
@@ -52,7 +52,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_002</name>
+      <name>PA_0002</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -62,7 +62,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_003</name>
+      <name>PA_0003</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -72,7 +72,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_004</name>
+      <name>PA_0004</name>
       <description>damaged</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -82,7 +82,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_005</name>
+      <name>PA_0005</name>
       <description>damaged</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -92,7 +92,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_006</name>
+      <name>PA_0006</name>
       <description>dead</description>
       <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
       <Point>
@@ -102,7 +102,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_007</name>
+      <name>PA_0007</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -112,7 +112,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_008</name>
+      <name>PA_0008</name>
       <description>alive</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
@@ -122,7 +122,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>PA_009</name>
+      <name>PA_0009</name>
       <description>dead</description>
       <styleUrl>#icon-1899-F57C00-labelson</styleUrl>
       <Point>
