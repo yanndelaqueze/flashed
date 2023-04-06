@@ -1,4 +1,6 @@
 require "nokogiri"
+require "json"
+
 
 Invader.delete_all
 City.delete_all
