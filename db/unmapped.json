@@ -1,6 +1,6 @@
 {
   "title": "Unmapped",
-  "Paris": [
+  "paris": [
     {
       "name": "PA_0057",
       "status": "dead"
@@ -82,7 +82,7 @@
       "status": "alive"
     }
   ],
-  "Marseille": [
+  "marseille": [
     {
       "name": "MARS_03",
       "status": "X"
@@ -156,7 +156,7 @@
       "status": "dead"
     }
   ],
-  "Lyon": [
+  "lyon": [
     {
       "name": "LY_08",
       "status": "dead"
@@ -190,7 +190,7 @@
       "status": "dead"
     }
   ],
-  "Basel": [
+  "basel": [
     {
       "name": "BSL_01",
       "status": "dead"
@@ -216,7 +216,7 @@
       "status": "alive"
     }
   ],
-  "Versailles": [
+  "versailles": [
     {
       "name": "VRS_23",
       "status": "dead"

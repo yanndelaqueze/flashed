@@ -1,9 +1,12 @@
 require "nokogiri"
 require "json"
 
-
 Invader.delete_all
 City.delete_all
+
+filepath = "db/unmapped.json"
+payload = File.read(filepath)
+results = JSON.parse(payload)
 
 puts "Creating Paris"
 paris = City.new(
@@ -32,6 +35,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["paris"].nil? ? nil : results["paris"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: paris
+  )
+end
+
 puts "Created Paris Invaders"
 
 puts "Creating Fontainebleau"
@@ -61,6 +76,17 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["fontainebleau"].nil? ? nil : results["fontainebleau"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: fontainebleau
+  )
+  end
 puts "Created Fontainebleau Invaders"
 
 puts "Creating Lille"
@@ -90,6 +116,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["lille"].nil? ? nil : results["lille"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: lille
+  )
+end
+
 puts "Created Lille Invaders"
 
 puts "Creating Nantes"
@@ -119,6 +157,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["nantes"].nil? ? nil : results["nantes"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: nantes
+  )
+end
+
 puts "Created Nantes Invaders"
 
 puts "Creating Marseille"
@@ -148,6 +198,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["marseille"].nil? ? nil : results["marseille"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: marseille
+  )
+end
+
 puts "Created Marseille Invaders"
 
 puts "Creating London"
@@ -177,6 +239,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["london"].nil? ? nil : results["london"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: london
+  )
+end
+
 puts "Created London Invaders"
 
 puts "Creating Basel"
@@ -206,6 +280,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["basel"].nil? ? nil : results["basel"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: basel
+  )
+end
+
 puts "Created Basel Invaders"
 
 puts "Creating Cap Ferret"
@@ -235,6 +321,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["cap_ferret"].nil? ? nil : results["cap_ferret"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: cap_ferret
+  )
+end
+
 puts "Created Cap Ferret Invaders"
 
 puts "Creating Versailles"
@@ -264,6 +362,18 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["versailles"].nil? ? nil : results["versailles"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: versailles
+  )
+end
+
 puts "Created Versailles Invaders"
 
 puts "Creating Lyon"
@@ -293,4 +403,16 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
+
+results["lyon"].nil? ? nil : results["lyon"].each do |invader|
+  puts "#{invader['name']} / #{invader['status']}"
+  name = invader['name']
+  status = invader['status']
+  Invader.create!(
+    name: name,
+    status: status,
+    city: lyon
+  )
+end
+
 puts "Created Lyon Invaders"
