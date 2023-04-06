@@ -1,11 +1,11 @@
 <div class="navbar-flashed">
-  <a class="navbar-brand" href="#">
+  <%= link_to root_path, class: "navbar-brand" do %>
     <%= image_tag "logo.png", alt:"Flashed", class: "img"%>
-  </a>
+  <% end %>
   <div class="navbar-items">
-    <a class="nav-link" href="#">Home</a>
-    <a class="nav-link" href="#">Radar</a>
-    <a class="nav-link" href="#">MyInvaders</a>
+    <%= link_to "Home", root_path, class:"nav-link" %>
+    <%= link_to "Radar", radar_path, class:"nav-link" %>
+    <%= link_to "MyInvaders", radar_path, class:"nav-link" %>
     <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="<%= asset_path('avatar.png') %>" />
     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
       <%= link_to "Log in", user_session_path, class:"dropdown-item" %>
