@@ -5853,7 +5853,7 @@
     </Placemark>
     <Placemark>
       <name>PA_0596</name>
-      <description>dead</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
       <Point>
         <coordinates>
@@ -14303,7 +14303,7 @@
     </Placemark>
     <Placemark>
       <name>PA_1448</name>
-      <description>dead</description>
+      <description>alive</description>
       <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
       <Point>
         <coordinates>
