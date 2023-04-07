@@ -1,17 +1,15 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 3px;
 }
 
 .invader-card {
+  aspect-ratio: 1/1;
   text-align: center;
   border: solid;
   border-color: white;
   margin: 5px;
+  width: 30vw;
   box-shadow: 0 0 22px -7px #fff;
-}
-
-.invader-card .card-image {
-  width: 100%;
-  object-fit: cover;
 }

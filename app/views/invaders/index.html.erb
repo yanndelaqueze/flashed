@@ -7,23 +7,25 @@
             class: "form-control",
             placeholder: "Search for Invaders"
         %>
-      <%= check_box_tag "status[]", "alive", false %>
+      <%= check_box_tag "status[]", "alive", true %>
       <%= label_tag "Alive"%>
-      <%= check_box_tag "status[]", "damaged", false %>
+      <%= check_box_tag "status[]", "damaged", true %>
       <%= label_tag "Damaged"%>
-      <%= check_box_tag "status[]", "dead", false %>
+      <%= check_box_tag "status[]", "dead", true %>
       <%= label_tag "Dead"%>
       <%= submit_tag "Search", name: "", class: "btn btn-primary" %>
     <% end %>
   </div>
   <div class="cards">
     <% @invaders.each do |invader| %>
-      <div class="invader-card">
-          <% if invader.photo.attached? %>
-            <%= cl_image_tag invader.photo.key, class: "card-image"%>
-          <% else %>
-            <%= image_tag "http://invader.spotter.free.fr/images/#{invader.name}-grosplan.png", alt:"Invader", class: "card-image"%>
-          <% end %>
+      <div class="invader-card" style="background-image: url(
+        <% if invader.photo.attached? %>
+          <%= cl_image_tag invader.photo.key%>
+        <% else %>
+          <%="http://invader.spotter.free.fr/images/#{invader.name}-grosplan.png".strip %>
+        <% end %>
+        ); background-size: cover">
+
           <p><%= link_to invader.name, invader_path(invader) %></p>
           <p><%= invader.status %></p>
           <p><%= invader.city.name %></p>
