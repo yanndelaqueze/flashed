@@ -8,6 +8,14 @@
   color: white;
 }
 
-.search .search-bar {
+.search #query {
   border-radius: 0;
+  border: solid;
+  border-color: white;
+  margin-top: 8px;
+}
+
+.search .check-boxes {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
