@@ -31,7 +31,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: paris
+    city: paris,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -43,7 +44,8 @@ results["paris"].nil? ? nil : results["paris"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: paris
+    city: paris,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -72,7 +74,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: fontainebleau
+    city: fontainebleau,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -84,7 +87,8 @@ results["fontainebleau"].nil? ? nil : results["fontainebleau"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: fontainebleau
+    city: fontainebleau,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   end
 puts "Created Fontainebleau Invaders"
@@ -112,7 +116,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: lille
+    city: lille,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -124,7 +129,8 @@ results["lille"].nil? ? nil : results["lille"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: lille
+    city: lille,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -153,7 +159,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: nantes
+    city: nantes,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -165,7 +172,8 @@ results["nantes"].nil? ? nil : results["nantes"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: nantes
+    city: nantes,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -194,7 +202,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: marseille
+    city: marseille,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -206,7 +215,8 @@ results["marseille"].nil? ? nil : results["marseille"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: marseille
+    city: marseille,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -235,7 +245,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: london
+    city: london,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -247,7 +258,8 @@ results["london"].nil? ? nil : results["london"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: london
+    city: london,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -276,7 +288,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: basel
+    city: basel,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -288,7 +301,8 @@ results["basel"].nil? ? nil : results["basel"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: basel
+    city: basel,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -317,7 +331,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: cap_ferret
+    city: cap_ferret,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -329,7 +344,8 @@ results["cap_ferret"].nil? ? nil : results["cap_ferret"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: cap_ferret
+    city: cap_ferret,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -358,7 +374,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: versailles
+    city: versailles,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -370,7 +387,8 @@ results["versailles"].nil? ? nil : results["versailles"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: versailles
+    city: versailles,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
@@ -399,7 +417,8 @@ document.root.xpath("Placemark").each do |placemark|
     longitude: longitude,
     latitude: latitude,
     status: status,
-    city: lyon
+    city: lyon,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
@@ -411,7 +430,8 @@ results["lyon"].nil? ? nil : results["lyon"].each do |invader|
   Invader.create!(
     name: name,
     status: status,
-    city: lyon
+    city: lyon,
+    url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
 
