@@ -1,10 +1,10 @@
 <div class="container-invaders">
   <%= link_to "Back to Home", "/"  %>
   <div class="search">
-    <%= form_with url: invaders_path, method: :get, class: "search-form" do %>
+    <%= form_with url: invaders_path, method: :get do %>
       <%= text_field_tag :query,
             params[:query],
-            class: "form-control",
+            class: "search-bar",
             placeholder: "Search for Invaders"
         %>
       <%= check_box_tag "status[]", "alive", true %>
@@ -16,20 +16,22 @@
       <%= submit_tag "Search", name: "", class: "btn btn-primary" %>
     <% end %>
   </div>
-  <div class="cards">
-    <% @invaders.each do |invader| %>
-      <div class="invader-card" style="background-image: url(
-        <% if invader.photo.attached? %>
-          <%= cl_image_tag invader.photo.key%>
-        <% else %>
-          <%="http://invader.spotter.free.fr/images/#{invader.name}-grosplan.png".strip %>
+    <% @cities.each do |city| %>
+      <h2> <%= city.name %> </h2>
+      <div class="cards">
+        <% @invaders.where(city: city).each do |invader| %>
+          <div class="invader-card" style="background-image: url(
+            <% if invader.photo.attached? %>
+              <%= cl_image_tag invader.photo.key%>
+            <% else %>
+              <%=invader.url %>
+            <% end %>
+            ); background-size: cover; background-position: center;">
+            <p><%= link_to invader.name, invader_path(invader) %></p>
+            <p><%= invader.status %></p>
+            <p><%= invader.city.name %></p>
+          </div>
         <% end %>
-        ); background-size: cover">
-
-          <p><%= link_to invader.name, invader_path(invader) %></p>
-          <p><%= invader.status %></p>
-          <p><%= invader.city.name %></p>
       </div>
     <% end %>
-  </div>
 </div>

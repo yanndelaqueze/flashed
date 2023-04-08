@@ -11,6 +11,7 @@ class InvadersController < ApplicationController
       SQL
       @invaders = @invaders.joins(:city).where(sql_subquery, query: "%#{params[:query]}%").where(status: params[:status]).order(name: :asc)
     end
+    @cities = City.joins(:invaders).where(invaders: { id: @invaders.map(&:id) }).distinct
   end
 
   def show
