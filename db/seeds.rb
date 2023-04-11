@@ -1,5 +1,6 @@
 require "nokogiri"
 require "json"
+require 'yaml'
 
 Invader.delete_all
 City.delete_all
@@ -436,3 +437,22 @@ results["lyon"].nil? ? nil : results["lyon"].each do |invader|
 end
 
 puts "Created Lyon Invaders"
+
+# Load the YAML file
+data = YAML.load_file("db/seeds/data.yaml")
+
+# Loop through the cities and create them
+data['cities'].each do |city_info|
+  City.create!(
+    name: city_info['name'],
+    short: city_info['short'],
+    country: city_info['country'],
+    address: city_info['address']
+  )
+  city_info['invaders'].each do |invader|
+    Invader.create!(
+      name: invader['name'],
+      status: invader['status']
+    )
+  end
+end

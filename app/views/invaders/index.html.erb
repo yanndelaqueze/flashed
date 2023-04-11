@@ -1,5 +1,4 @@
 <div class="container-invaders">
-  <%= link_to "Back to Home", "/", class:"btn-red"  %>
   <div class="search">
     <%= form_with url: invaders_path, method: :get do %>
       <div class="search-bar">
@@ -15,26 +14,20 @@
         <%= label_tag "Damaged"%>
         <%= check_box_tag "status[]", "dead", true %>
         <%= label_tag "Dead"%>
+        <%= check_box_tag "status[]", "unknown", true %>
+        <%= label_tag "?"%>
       </div>
       <%= submit_tag "Search", name: "", class: "btn-green" %>
     <% end %>
   </div>
+  <div class="invaders">
     <% @cities.each do |city| %>
       <h2> <%= city.name %> </h2>
       <div class="cards">
         <% @invaders.where(city: city).each do |invader| %>
-          <div class="invader-card" style="background-image: url(
-            <% if invader.photo.attached? %>
-              <%= cl_image_tag invader.photo.key%>
-            <% else %>
-              <%=invader.url %>
-            <% end %>
-            ); background-size: cover; background-position: center;">
-            <p><%= link_to invader.name, invader_path(invader) %></p>
-            <p><%= invader.status %></p>
-            <p><%= invader.city.name %></p>
-          </div>
+          <%= render "invader-card", invader: invader %>
         <% end %>
       </div>
     <% end %>
+  </div>
 </div>
