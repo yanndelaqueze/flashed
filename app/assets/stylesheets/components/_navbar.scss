@@ -1,8 +1,10 @@
 .navbar-flashed {
   display: flex;
   justify-content: space-between;
-  padding: 5px;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
 }
 
 .navbar-flashed .navbar-brand img {

@@ -15,4 +15,25 @@
   justify-self: center;
   align-self: center;
   z-index: 100;
+  position: relative;
+}
+
+.invader-card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media(min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media(min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

@@ -5,6 +5,7 @@
     <%=invader.url %>
   <% end %>
   ); background-size: cover; background-position: center;">
-  <p><%= link_to invader.name, invader_path(invader) %></p>
-  <p><%= invader.status %></p>
+  <%= link_to "", invader_path(invader), class:"invader-card-link" %>
+  <div class="invader-name">
   </div>
+</div>
