@@ -105,8 +105,8 @@
     </Placemark>
     <Placemark>
       <name>VRS_04</name>
-      <description>dead</description>
-      <styleUrl>#icon-1899-BDBDBD</styleUrl>
+      <description>alive</description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
       <Point>
         <coordinates>
           2.1321873,48.8071084,0

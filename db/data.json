@@ -771,6 +771,794 @@
         "status": "unknown"
         }
       ]
+    },
+    {
+      "name": "Grenoble",
+      "short": "GRN",
+      "country": "France",
+      "address": "Grenoble, France",
+      "invaders": [
+        {
+          "name": "GRN_01",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_02",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_03",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_04",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_05",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_06",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_07",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_08",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_09",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_10",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_11",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_12",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_13",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_14",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_15",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_16",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_17",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_18",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_19",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_20",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_21",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_22",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_23",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_24",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_25",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_26",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_27",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_28",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_29",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_30",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_31",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_32",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_33",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_34",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_35",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_36",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_37",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_38",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_39",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_40",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_41",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_42",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_43",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_44",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_45",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_46",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_47",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_48",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_49",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_50",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_51",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_52",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_53",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_54",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_55",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_56",
+          "status": "unknown"
+        },
+        {
+          "name": "GRN_57",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "La Ciotat",
+      "short": "LCT",
+      "country": "France",
+      "address": "La Ciotat, France",
+      "invaders": [
+        {
+          "name": "LCT_01",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_02",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_03",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_04",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_05",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_06",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_07",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_08",
+          "status": "unknown"
+        },
+        {
+          "name": "LCT_09",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Luberon",
+      "short": "LBR",
+      "country": "France",
+      "address": "Luberon, France",
+      "invaders": [
+        {
+          "name": "LBR_01",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_02",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_03",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_04",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_05",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_06",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_07",
+          "status": "unknown"
+        },
+        {
+          "name": "LBR_08",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Montauban",
+      "short": "MTB",
+      "country": "France",
+      "address": "Montauban, France",
+      "invaders": [
+        {
+          "name": "MTB_01",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_02",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_03",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_04",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_05",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_06",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_07",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_08",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_09",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_10",
+          "status": "unknown"
+        },
+        {
+          "name": "MTB_11",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Montpellier",
+      "short": "MPL",
+      "country": "France",
+      "address": "Montpellier, France",
+      "invaders": [
+        {
+          "name": "MPL_01",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_02",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_03",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_04",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_05",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_06",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_07",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_08",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_09",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_10",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_11",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_12",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_13",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_14",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_15",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_16",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_17",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_18",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_19",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_20",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_21",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_22",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_23",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_24",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_25",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_26",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_27",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_28",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_29",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_30",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_31",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_32",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_33",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_34",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_35",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_36",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_37",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_38",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_39",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_40",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_41",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_42",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_43",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_44",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_45",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_46",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_47",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_48",
+          "status": "unknown"
+        },
+        {
+          "name": "MPL_49",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Nîmes",
+      "short": "NIM",
+      "country": "France",
+      "address": "Nîmes, France",
+      "invaders": [
+        {
+          "name": "NIM_01",
+          "status": "unknown"
+        },
+        {
+          "name": "NIM_02",
+          "status": "unknown"
+        },
+        {
+          "name": "NIM_03",
+          "status": "unknown"
+        },
+        {
+          "name": "NIM_04",
+          "status": "unknown"
+        },
+        {
+          "name": "NIM_05",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Pau",
+      "short": "PAU",
+      "country": "France",
+      "address": "Pau, France",
+      "invaders": [
+        {
+          "name": "PAU_01",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_02",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_03",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_04",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_05",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_06",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_07",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_08",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_09",
+          "status": "unknown"
+        },
+        {
+          "name": "PAU_10",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Perpignan",
+      "short": "PRP",
+      "country": "France",
+      "address": "Perpignan, France",
+      "invaders": [
+        {
+          "name": "PRP_01",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_02",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_03",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_04",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_05",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_06",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_07",
+          "status": "unknown"
+        },
+        {
+          "name": "PRP_08",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Rennes",
+      "short": "RN",
+      "country": "France",
+      "address": "Rennes, France",
+      "invaders": [
+        {
+          "name": "RN_01",
+          "status": "unknown"
+        },
+        {
+          "name": "RN_02",
+          "status": "unknown"
+        },
+        {
+          "name": "RN_03",
+          "status": "unknown"
+        },
+        {
+          "name": "RN_04",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Toulouse",
+      "short": "TLS",
+      "country": "France",
+      "address": "Toulouse, France",
+      "invaders": [
+        {
+          "name": "TLS_01",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_02",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_03",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_04",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_05",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_06",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_07",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_08",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_09",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_10",
+          "status": "unknown"
+        },
+        {
+          "name": "TLS_11",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Valmorel",
+      "short": "VLMO",
+      "country": "France",
+      "address": "Valmorel, France",
+      "invaders": [
+        {
+          "name": "VLMO_01",
+          "status": "unknown"
+        },
+        {
+          "name": "VLMO_02",
+          "status": "unknown"
+        },
+        {
+          "name": "VLMO_03",
+          "status": "unknown"
+        }
+      ]
     }
   ]
 }

@@ -3,14 +3,14 @@ class CitiesController < ApplicationController
   before_action :set_city, only: %i[show]
 
   def index
-    @cities = City.all
+    @cities = City.all.order(name: :asc)
     @markers = @cities.geocoded.map do |city|
       {
         lat: city.latitude,
         lng: city.longitude
       }
     end
-    @countries = City.select(:country).map(&:country).uniq
+    @countries = City.select(:country).order(country: :asc).map(&:country).uniq
   end
 
   def show
