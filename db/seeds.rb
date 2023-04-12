@@ -8,8 +8,9 @@ City.delete_all
 filepath = "db/unmapped.json"
 payload = File.read(filepath)
 results = JSON.parse(payload)
-
+puts "--------------"
 puts "Creating Paris"
+puts "--------------"
 paris = City.new(
   name: "Paris",
   short: "PA",
@@ -17,9 +18,6 @@ paris = City.new(
   address: "Paris, France"
 )
 paris.save!
-puts "Created Paris"
-
-puts "Creating Paris Invaders"
 file = File.open("db/paris_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -37,7 +35,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["paris"].nil? ? nil : results["paris"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -49,10 +46,9 @@ results["paris"].nil? ? nil : results["paris"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Paris Invaders"
-
+puts "--------------"
 puts "Creating Fontainebleau"
+puts "--------------"
 fontainebleau = City.new(
   name: "Fontainebleau",
   short: "FTBL",
@@ -60,9 +56,6 @@ fontainebleau = City.new(
   address: "Fontainebleau, France"
 )
 fontainebleau.save!
-puts "Created Fontainebleau"
-
-puts "Creating Fontainebleau Invaders"
 file = File.open("db/fontainebleau_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -80,7 +73,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["fontainebleau"].nil? ? nil : results["fontainebleau"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -92,9 +84,9 @@ results["fontainebleau"].nil? ? nil : results["fontainebleau"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
   end
-puts "Created Fontainebleau Invaders"
-
+puts "--------------"
 puts "Creating Lille"
+puts "--------------"
 lille = City.new(
   name: "Lille",
   short: "LIL",
@@ -102,9 +94,6 @@ lille = City.new(
   address: "Lille, France"
 )
 lille.save!
-puts "Created Lille"
-
-puts "Creating Lille Invaders"
 file = File.open("db/lille_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -122,7 +111,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["lille"].nil? ? nil : results["lille"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -134,10 +122,9 @@ results["lille"].nil? ? nil : results["lille"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Lille Invaders"
-
+puts "--------------"
 puts "Creating Nantes"
+puts "--------------"
 nantes = City.new(
   name: "Nantes",
   short: "NAN",
@@ -145,9 +132,6 @@ nantes = City.new(
   address: "Nantes, France"
 )
 nantes.save!
-puts "Created Nantes"
-
-puts "Creating Nantes Invaders"
 file = File.open("db/nantes_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -165,7 +149,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["nantes"].nil? ? nil : results["nantes"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -177,10 +160,9 @@ results["nantes"].nil? ? nil : results["nantes"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Nantes Invaders"
-
+puts "--------------"
 puts "Creating Marseille"
+puts "--------------"
 marseille = City.new(
   name: "Marseille",
   short: "MARS",
@@ -188,9 +170,6 @@ marseille = City.new(
   address: "Marseille, France"
 )
 marseille.save!
-puts "Created Marseille"
-
-puts "Creating Marseille Invaders"
 file = File.open("db/marseille_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -208,7 +187,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["marseille"].nil? ? nil : results["marseille"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -220,10 +198,9 @@ results["marseille"].nil? ? nil : results["marseille"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Marseille Invaders"
-
+puts "--------------"
 puts "Creating London"
+puts "--------------"
 london = City.new(
   name: "London",
   short: "LDN",
@@ -231,9 +208,6 @@ london = City.new(
   address: "London, United Kingdom"
 )
 london.save!
-puts "Created London"
-
-puts "Creating London Invaders"
 file = File.open("db/london_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -251,7 +225,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["london"].nil? ? nil : results["london"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -263,10 +236,9 @@ results["london"].nil? ? nil : results["london"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created London Invaders"
-
+puts "--------------"
 puts "Creating Basel"
+puts "--------------"
 basel = City.new(
   name: "Basel",
   short: "BSL",
@@ -274,9 +246,6 @@ basel = City.new(
   address: "Basel, Switzerland"
 )
 basel.save!
-puts "Created Basel"
-
-puts "Creating Basel Invaders"
 file = File.open("db/basel_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -294,7 +263,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["basel"].nil? ? nil : results["basel"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -306,10 +274,9 @@ results["basel"].nil? ? nil : results["basel"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Basel Invaders"
-
+puts "--------------"
 puts "Creating Cap Ferret"
+puts "--------------"
 cap_ferret = City.new(
   name: "Cap Ferret",
   short: "CAPF",
@@ -317,9 +284,6 @@ cap_ferret = City.new(
   address: "Cap Ferret, France"
 )
 cap_ferret.save!
-puts "Created Cap Ferret"
-
-puts "Creating Cap Ferret Invaders"
 file = File.open("db/cap_ferret_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -337,7 +301,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["cap_ferret"].nil? ? nil : results["cap_ferret"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -349,10 +312,9 @@ results["cap_ferret"].nil? ? nil : results["cap_ferret"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Cap Ferret Invaders"
-
+puts "--------------"
 puts "Creating Versailles"
+puts "--------------"
 versailles = City.new(
   name: "Versailles",
   short: "VRS",
@@ -360,9 +322,6 @@ versailles = City.new(
   address: "Versailles, France"
 )
 versailles.save!
-puts "Created Versailles"
-
-puts "Creating Versailles Invaders"
 file = File.open("db/versailles_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -380,7 +339,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["versailles"].nil? ? nil : results["versailles"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -392,10 +350,9 @@ results["versailles"].nil? ? nil : results["versailles"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
-
-puts "Created Versailles Invaders"
-
+puts "--------------"
 puts "Creating Lyon"
+puts "--------------"
 lyon = City.new(
   name: "Lyon",
   short: "LY",
@@ -403,9 +360,6 @@ lyon = City.new(
   address: "Lyon, France"
 )
 lyon.save!
-puts "Created Lyon"
-
-puts "Creating Lyon Invaders"
 file = File.open("db/lyon_invaders.xml")
 document = Nokogiri::XML(file)
 document.root.xpath("Placemark").each do |placemark|
@@ -423,7 +377,6 @@ document.root.xpath("Placemark").each do |placemark|
   )
   puts "#{name} / #{longitude} / #{latitude} / #{status}"
 end
-
 results["lyon"].nil? ? nil : results["lyon"].each do |invader|
   puts "#{invader['name']} / #{invader['status']}"
   name = invader['name']
@@ -435,24 +388,31 @@ results["lyon"].nil? ? nil : results["lyon"].each do |invader|
     url: "http://invader.spotter.free.fr/images/#{name}-grosplan.png".strip
   )
 end
+puts "              "
+puts "--------------"
+puts "Creating all other cities & invaders"
+puts "--------------"
+puts "              "
 
-puts "Created Lyon Invaders"
+filepath = "db/data.json"
+payload = File.read(filepath)
+results = JSON.parse(payload)
 
-# Load the YAML file
-data = YAML.load_file("db/seeds/data.yaml")
-
-# Loop through the cities and create them
-data['cities'].each do |city_info|
-  City.create!(
+results["cities"].each do |city_info|
+  puts "--------------"
+  puts "Creating #{city_info['name']}"
+  puts "--------------"
+  city = City.create!(
     name: city_info['name'],
     short: city_info['short'],
     country: city_info['country'],
     address: city_info['address']
   )
-  city_info['invaders'].each do |invader|
-    Invader.create!(
+  city_info["invaders"].each do |invader|
+    city.invaders.create!(
       name: invader['name'],
       status: invader['status']
     )
+    puts "#{invader['name']} / #{invader['status']}"
   end
 end

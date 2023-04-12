@@ -1,0 +1,776 @@
+{
+  "cities": [
+    {
+      "name": "Aix-en-Provence",
+      "short": "AIX",
+      "country": "France",
+      "address": "Aix-en-Provence, France",
+      "invaders": [
+        {
+          "name": "AIX_01",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_02",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_03",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_04",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_05",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_06",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_07",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_08",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_09",
+          "status": "unknown"
+        },
+        {
+          "name": "AIX_10",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Avignon",
+      "short": "AVI",
+      "country": "France",
+      "address": "Avignon, France",
+      "invaders": [
+        {
+          "name": "AVI_01",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_02",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_03",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_04",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_05",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_06",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_07",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_08",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_09",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_10",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_11",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_12",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_13",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_14",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_15",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_16",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_17",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_18",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_19",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_20",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_21",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_22",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_23",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_24",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_25",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_26",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_27",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_28",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_29",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_30",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_31",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_32",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_33",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_34",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_35",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_36",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_37",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_38",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_39",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_40",
+          "status": "unknown"
+        },
+        {
+          "name": "AVI_41",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Bastia",
+      "short": "BTA",
+      "country": "France",
+      "address": "Bastia, France",
+      "invaders": [
+        {
+        "name": "BTA_01",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_02",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_03",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_04",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_05",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_06",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_07",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_08",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_09",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_10",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_11",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_12",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_13",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_14",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_15",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_16",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_17",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_18",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_19",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_20",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_21",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_22",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_23",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_24",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_25",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_26",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_27",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_28",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_29",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_30",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_31",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_32",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_33",
+        "status": "unknown"
+        },
+        {
+        "name": "BTA_34",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Clermont-Ferrand",
+      "short": "CLR",
+      "country": "France",
+      "address": "Clermont-Ferrand, France",
+      "invaders": [
+        {
+        "name": "CLR_01",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_02",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_03",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_04",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_05",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_06",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_07",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_08",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_09",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_10",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_11",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_12",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_13",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_14",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_15",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_16",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_17",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_18",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_19",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_20",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_21",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_22",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_23",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_24",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_25",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_26",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_27",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_28",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_29",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_30",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_31",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_32",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_33",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_34",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_35",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_36",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_37",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_38",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_39",
+        "status": "unknown"
+        },
+        {
+        "name": "CLR_40",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Contis-les-Bains",
+      "short": "CON",
+      "country": "France",
+      "address": "ontis-les-Bains, France",
+      "invaders": [
+        {
+        "name": "CON_01",
+        "status": "unknown"
+        },
+        {
+        "name": "CON_02",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Côte d'Azur",
+      "short": "CAZ",
+      "country": "France",
+      "address": "Côte d'Azur, France",
+      "invaders": [
+        {
+        "name": "CAZ_01",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_02",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_03",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_04",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_05",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_06",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_07",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_08",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_09",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_10",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_11",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_12",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_13",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_14",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_15",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_16",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_17",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_18",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_19",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_20",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_21",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_22",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_23",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_24",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_25",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_26",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_27",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_28",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_29",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_30",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_31",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_32",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_33",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_34",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_35",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_36",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_37",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_38",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_39",
+        "status": "unknown"
+        },
+        {
+        "name": "CAZ_40",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Dijon",
+      "short": "DIJ",
+      "country": "France",
+      "address": "Dijon, France",
+      "invaders": [
+        {
+        "name": "DIJ_01",
+        "status": "unknown"
+        },
+        {
+        "name": "DIJ_02",
+        "status": "unknown"
+        },
+        {
+        "name": "DIJ_03",
+        "status": "unknown"
+        },
+        {
+        "name": "DIJ_04",
+        "status": "unknown"
+        },
+        {
+        "name": "DIJ_05",
+        "status": "unknown"
+        },
+        {
+        "name": "DIJ_06",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Forcalquier",
+      "short": "FRQ",
+      "country": "France",
+      "address": "Forcalquier, France",
+      "invaders": [
+        {
+        "name": "FRQ_01",
+        "status": "unknown"
+        },
+        {
+        "name": "FRQ_02",
+        "status": "unknown"
+        },
+        {
+        "name": "FRQ_03",
+        "status": "unknown"
+        },
+        {
+        "name": "FRQ_04",
+        "status": "unknown"
+        }
+      ]
+    }
+  ]
+}
