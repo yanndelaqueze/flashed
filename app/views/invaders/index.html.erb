@@ -25,7 +25,10 @@
       <h2> <%= city.name %> </h2>
       <div class="cards">
         <% @invaders.where(city: city).each do |invader| %>
+        <div class="invader-card-container">
+          <p><%= invader.name %></p>
           <%= render "invader-card", invader: invader %>
+        </div>
         <% end %>
       </div>
     <% end %>
