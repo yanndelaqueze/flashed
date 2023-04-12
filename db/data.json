@@ -1559,6 +1559,1550 @@
           "status": "unknown"
         }
       ]
+    },
+    {
+      "name": "Manchester",
+      "short": "MAN",
+      "country": "United Kingdom",
+      "address": "Manchester, United Kingdom",
+      "invaders": [
+        {
+          "name": "MAN_01",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_02",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_03",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_04",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_05",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_06",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_07",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_08",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_09",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_10",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_11",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_12",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_13",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_14",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_15",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_16",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_17",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_18",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_19",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_20",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_21",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_22",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_23",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_24",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_25",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_26",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_27",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_28",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_29",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_30",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_31",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_32",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_33",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_34",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_35",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_36",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_37",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_38",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_39",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_40",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_41",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_42",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_43",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_44",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_45",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_46",
+          "status": "unknown"
+        },
+        {
+          "name": "MAN_47",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Newcastle",
+      "short": "NCL",
+      "country": "United Kingdom",
+      "address": "Newcastle upon Tyne, United Kingdom",
+      "invaders": [
+        {
+          "name": "NCL_01",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_02",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_03",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_04",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_05",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_06",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_07",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_08",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_09",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_10",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_11",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_12",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_13",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_14",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_15",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_16",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_17",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_18",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_19",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_20",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_21",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_22",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_23",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_24",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_25",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_26",
+          "status": "unknown"
+        },
+        {
+          "name": "NCL_27",
+          "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Roma",
+      "short": "ROM",
+      "country": "Italy",
+      "address": "Roma, Italy",
+      "invaders": [
+        {
+        "name": "ROM_01",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_02",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_03",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_04",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_05",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_06",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_07",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_08",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_09",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_10",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_11",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_12",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_13",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_14",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_15",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_16",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_17",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_18",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_19",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_20",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_21",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_22",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_23",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_24",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_25",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_26",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_27",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_28",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_29",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_30",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_31",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_32",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_33",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_34",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_35",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_36",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_37",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_38",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_39",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_40",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_41",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_42",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_43",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_44",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_45",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_46",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_47",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_48",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_49",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_50",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_51",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_52",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_53",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_54",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_55",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_56",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_57",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_58",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_59",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_60",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_61",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_62",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_63",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_64",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_65",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_66",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_67",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_68",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_69",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_70",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_71",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_72",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_73",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_74",
+        "status": "unknown"
+        },
+        {
+        "name": "ROM_75",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Ravenna",
+      "short": "RA",
+      "country": "Italy",
+      "address": "Ravenna, Italy",
+      "invaders": [
+        {
+        "name": "RA_01",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_02",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_03",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_04",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_05",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_06",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_07",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_08",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_09",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_10",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_11",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_12",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_13",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_14",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_15",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_16",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_17",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_18",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_19",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_20",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_21",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_22",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_23",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_24",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_25",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_26",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_27",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_28",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_29",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_30",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_31",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_32",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_33",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_34",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_35",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_36",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_37",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_38",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_39",
+        "status": "unknown"
+        },
+        {
+        "name": "RA_40",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Bibao",
+      "short": "BBO",
+      "country": "Spain",
+      "address": "Bilbao, Spain",
+      "invaders": [
+        {
+        "name": "BBO_01",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_02",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_03",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_04",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_05",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_06",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_07",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_08",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_09",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_10",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_11",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_12",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_13",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_14",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_15",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_16",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_17",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_18",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_19",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_20",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_21",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_22",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_23",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_24",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_25",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_26",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_27",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_28",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_29",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_30",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_31",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_32",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_33",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_34",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_35",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_36",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_37",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_38",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_39",
+        "status": "unknown"
+        },
+        {
+        "name": "BBO_40",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Barcelona",
+      "short": "BRC",
+      "country": "Spain",
+      "address": "Barcelona, Spain",
+      "invaders": [
+        {
+        "name": "BRC_01",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_02",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_03",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_04",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_05",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_06",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_07",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_08",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_09",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_10",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_11",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_12",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_13",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_14",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_15",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_16",
+        "status": "unknown"
+        },
+        {
+        "name": "BRC_17",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Malaga",
+      "short": "MLGA",
+      "country": "Spain",
+      "address": "Malaga, Spain",
+      "invaders": [
+        {
+        "name": "MLGA_01",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_02",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_03",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_04",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_05",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_06",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_07",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_08",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_09",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_10",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_11",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_12",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_13",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_14",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_15",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_16",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_17",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_18",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_19",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_20",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_21",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_22",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_23",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_24",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_25",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_26",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_27",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_28",
+        "status": "unknown"
+        },
+        {
+        "name": "MLGA_29",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Menorca",
+      "short": "MEN",
+      "country": "Spain",
+      "address": "Menorca, Spain",
+      "invaders": [
+        {
+        "name": "MEN_01",
+        "status": "unknown"
+        },
+        {
+        "name": "MEN_02",
+        "status": "unknown"
+        },
+        {
+        "name": "MEN_03",
+        "status": "unknown"
+        },
+        {
+        "name": "MEN_04",
+        "status": "unknown"
+        },
+        {
+        "name": "MEN_05",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Anzère",
+      "short": "ANZR",
+      "country": "Switzerland",
+      "address": "Anzère, Switzerland",
+      "invaders": [
+        {
+        "name": "ANZR_01",
+        "status": "unknown"
+        },
+        {
+        "name": "ANZR_02",
+        "status": "unknown"
+        },
+        {
+        "name": "ANZR_03",
+        "status": "unknown"
+        },
+        {
+        "name": "ANZR_04",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Bern",
+      "short": "BRN",
+      "country": "Switzerland",
+      "address": "Bern, Switzerland",
+      "invaders": [
+        {
+        "name": "BRN_01",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_02",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_03",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_04",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_05",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_06",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_07",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_08",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_09",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_10",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_11",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_12",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_13",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_14",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_15",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_16",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_17",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_18",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_19",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_20",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_21",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_22",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_23",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_24",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_25",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_26",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_27",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_28",
+        "status": "unknown"
+        },
+        {
+        "name": "BRN_29",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Genève",
+      "short": "GNV",
+      "country": "Switzerland",
+      "address": "Genève, Switzerland",
+      "invaders": [
+        {
+        "name": "GNV_01",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_02",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_03",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_04",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_05",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_06",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_07",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_08",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_09",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_10",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_11",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_12",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_13",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_14",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_15",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_16",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_17",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_18",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_19",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_20",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_21",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_22",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_23",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_24",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_25",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_26",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_27",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_28",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_29",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_30",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_31",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_32",
+        "status": "unknown"
+        },
+        {
+        "name": "GNV_33",
+        "status": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "Lausanne",
+      "short": "LSN",
+      "country": "Switzerland",
+      "address": "Lausanne, Switzerland",
+      "invaders": [
+        {
+        "name": "LSN_01",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_02",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_03",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_04",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_05",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_06",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_07",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_08",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_09",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_10",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_11",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_12",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_13",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_14",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_15",
+        "status": "unknown"
+        },
+        {
+        "name": "LSN_16",
+        "status": "unknown"
+        }
+      ]
     }
   ]
 }

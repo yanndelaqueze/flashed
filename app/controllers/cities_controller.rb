@@ -7,7 +7,8 @@ class CitiesController < ApplicationController
     @markers = @cities.geocoded.map do |city|
       {
         lat: city.latitude,
-        lng: city.longitude
+        lng: city.longitude,
+        marker_html: render_to_string(partial: "marker", locals: { city: city })
       }
     end
     @countries = City.select(:country).order(country: :asc).map(&:country).uniq
