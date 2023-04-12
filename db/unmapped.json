@@ -267,5 +267,263 @@
       "name": "FTBL_13",
       "status": "alive"
     }
+  ],
+  "london": [
+    {
+      "name": "LDN_002",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_008",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_009",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_010",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_015",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_016",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_017",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_018",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_020",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_021",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_023",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_026",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_028",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_033",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_037",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_038",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_039",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_040",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_043",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_050",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_052",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_053",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_059",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_060",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_061",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_063",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_065",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_066",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_074",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_075",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_077",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_078",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_079",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_080",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_081",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_083",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_084",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_085",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_086",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_087",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_089",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_090",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_095",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_098",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_101",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_102",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_103",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_107",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_108",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_112",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_113",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_114",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_117",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_118",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_121",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_122",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_123",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_124",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_127",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_129",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_132",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_134",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_146",
+      "status": "unknown"
+    },
+    {
+      "name": "LDN_147",
+      "status": "unknown"
+    }
   ]
 }

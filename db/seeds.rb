@@ -411,7 +411,8 @@ results["cities"].each do |city_info|
   city_info["invaders"].each do |invader|
     city.invaders.create!(
       name: invader['name'],
-      status: invader['status']
+      status: invader['status'],
+      url: "http://invader.spotter.free.fr/images/#{invader['name']}-grosplan.png".strip
     )
     puts "#{invader['name']} / #{invader['status']}"
   end
