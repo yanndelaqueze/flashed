@@ -21,3 +21,11 @@
   font-size: 150%;
   text-align: center;
 }
+
+.cities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  grid-gap: 0.75rem; /* To define the gap between rows/columns */
+  gap: 0.75rem;
+  padding: 0.75rem;
+}

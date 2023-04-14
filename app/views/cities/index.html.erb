@@ -10,11 +10,11 @@
   <ul>
     <% @countries.each do |country| %>
       <h4><%= country %></h4>
-      <ul>
-      <% @cities.where(country: country).each do |city| %>
-        <li> <%= link_to city.name, city_path(city) %></li>
-      <% end %>
-      </ul>
+      <div class="cities">
+        <% @cities.where(country: country).each do |city| %>
+          <%= link_to "#{city.name} (#{city.invaders.count})", city_path(city) %>
+        <% end %>
+      </div>
     <% end %>
   </ul>
 </div>
