@@ -6,15 +6,18 @@
 
 .city-marker {
   background: white;
-  border-radius: 50%;
   height: 4vh;
   width: 4vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .city-marker p {
   color: black;
-  position: absolute;
-  top: 50%;
   padding: 0;
+  margin: 0 !important;
+  font-family: 'VT323', monospace;
+  font-size: 150%;
+  text-align: center;
 }
