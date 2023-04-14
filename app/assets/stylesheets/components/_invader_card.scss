@@ -24,9 +24,7 @@
   margin: 5px;
   width: 85%;
   box-shadow: 0 0 22px -7px #fff;
-  justify-self: center;
   align-self: center;
-  z-index: 100;
   position: relative;
 }
 
@@ -36,4 +34,25 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.invader-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 110;
+  height: 20%;
+  width: 100%;
+  background: white;
+  padding-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+}
+
+.invader-info p {
+color: black !important;
+margin: 0 !important;
 }

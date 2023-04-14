@@ -1,6 +1,11 @@
 <div class="container-city">
-<%= link_to "Back to Cities", cities_path  %>
-  <% @invaders.each do |invader| %>
-    <p><%= link_to invader.name, invader_path(invader) %></p>
-  <% end %>
+  <%= link_to "Back to Cities", cities_path  %>
+  <div class="cards">
+    <% @invaders.each do |invader| %>
+      <div class="invader-card-container">
+        <%= render "invaders/invader-card", invader: invader %>
+        <p><%= invader.name %></p>
+      </div>
+    <% end %>
+  </div>
 </div>

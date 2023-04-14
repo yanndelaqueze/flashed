@@ -6,6 +6,17 @@
   <% end %>
   ); background-size: cover; background-position: center;">
   <%= link_to "", invader_path(invader), class:"invader-card-link" %>
-  <div class="invader-name">
+  <div class="invader-info">
+  <p>NEW/EDIT</p>
+  <% case invader.status %>
+    <% when "alive" %>
+      <%= image_tag "invader-green.png", alt:"alive", class: "img"%>
+    <% when "dead" %>
+      <%= image_tag "invader-red.png", alt:"dead", class: "img"%>
+    <% when "damaged" %>
+      <%= image_tag "invader-yellow.png", alt:"damaged", class: "img"%>
+    <% when "unknown" %>
+      <%= image_tag "invader-grey.png", alt:"unknown", class: "img"%>
+    <% end %>
   </div>
 </div>
