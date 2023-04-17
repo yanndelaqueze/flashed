@@ -1,4 +1,4 @@
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="new_bookmark_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -9,13 +9,39 @@
       </div>
       <div class="modal-body">
         <%= simple_form_for [invader, bookmark] do |f| %>
-          <%= f.input :note, placeholder: "Add a note" %>
-        </div>
-        <div class="modal-footer">
+          <%= f.input :flashed,
+            :as => :select,
+            :collection => [['Flashed',true],['Not Flashed',false]],
+            :label => "Flashed ?" %>
+          <div class="mapping">
+            <p>Map this Invader</p>
+            <div class="mapping-input">
+              <%= f.input :address, placeholder: "Address", :label => "Address" %>
+              <%= image_tag "target.png", alt:"target", class: "target"%>
+            </div>
+            <div class="mapping-output">
+              <%= f.input :lat, placeholder: "Latitude", :label => "Latitude" %>
+              <%= f.input :lng, placeholder: "Longitude", :label => "Longitude" %>
+            </div>
+          </div>
+          <%= f.input :note, placeholder: "Add a note", :label => "Add a Note" %>
           <%= f.submit "Add", class: "btn btn-flat" %>
           <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Back</button>
-      <% end %>
-      </div>
+          <% end %>
+       </div>
     </div>
   </div>
 </div>
+
+<script>
+
+// const getCoordinates = (event) => {
+// // console.log(event);
+// }
+
+const modal = dialog.querySelector('.modal');
+// console.log(modal);
+// const targets = document.querySelectorAll('.target');
+// target.forEach( (locator) => locator.addEventListener('click', getCoordinates));
+
+</script>

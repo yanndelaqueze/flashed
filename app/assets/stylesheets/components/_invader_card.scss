@@ -59,10 +59,13 @@
   padding-top: 4%;
 }
 
-.invader-info img {
-color: black !important;
-margin: 0 !important;
-height: 170%;
+.invader-info > img {
+  color: black !important;
+  margin: 0 !important;
+  height: 100%;
+  position: absolute;
+  bottom: -2%;
+  right: 2%;
 }
 
 .invader-info button {
@@ -70,4 +73,11 @@ height: 170%;
   background: transparent;
   height: 130%;
   margin-bottom: 10%;
+  position: absolute;
+  bottom: -60%;
+  left: -5%;
+
+  img {
+    height: 75%;
+  }
   }
