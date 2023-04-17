@@ -36,6 +36,13 @@
   right: 0;
 }
 
+.invader-card .flashed {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 25%;
+}
+
 .invader-info {
   display: flex;
   justify-content: space-between;
@@ -52,7 +59,8 @@
   padding-top: 4%;
 }
 
-.invader-info p {
+.invader-info img {
 color: black !important;
 margin: 0 !important;
+height: 170%;
 }
