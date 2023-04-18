@@ -14,7 +14,8 @@ class BookmarksController < ApplicationController
     @bookmark.user = current_user
     authorize @bookmark
     if @bookmark.save
-      redirect_to bookmarks_path
+      flash[:notice] = "#{@invader.name} was successfully added."
+      redirect_back(fallback_location: root_path)
     else
       render :new, status: :unprocessable_entity
     end

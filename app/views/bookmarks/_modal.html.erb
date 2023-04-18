@@ -16,12 +16,15 @@
           <div class="mapping">
             <p>Map this Invader</p>
             <div class="mapping-input">
-              <%= f.input :address, placeholder: "Address", :label => "Address" %>
+              <%= f.input :address,
+                input_html: {data: {address_autocomplete_target: "address"}, class: "d-none"},
+                wrapper_html: {data: {controller: "address-autocomplete", address_autocomplete_api_key_value: ENV["MAPBOX_API_KEY"]}}
+              %>
               <%= image_tag "target.png", alt:"target", id: "target"%>
             </div>
             <div class="mapping-output">
-              <%= f.input :lat, placeholder: "Latitude", :label => "Latitude" %>
-              <%= f.input :lng, placeholder: "Longitude", :label => "Longitude" %>
+              <%= f.input :lat, placeholder: "Latitude", :label => "Latitude", id: "lat" %>
+              <%= f.input :lng, placeholder: "Longitude", :label => "Longitude", id: "lng" %>
             </div>
           </div>
           <%= f.input :note, placeholder: "Add a note", :label => "Add a Note" %>
