@@ -3,7 +3,8 @@ class CitiesController < ApplicationController
   before_action :set_city, only: %i[show]
 
   def index
-    @cities = City.all.order(name: :asc)
+    @cities = City.joins(:invaders).group('cities.id').order('COUNT(invaders.id) DESC')
+
     @markers = @cities.geocoded.map do |city|
       {
         lat: city.latitude,

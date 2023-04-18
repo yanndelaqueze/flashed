@@ -5,16 +5,30 @@
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 8px;
+  position: fixed;
+  background: black;
+  z-index: 150;
+  width: 100%;
 }
 
 .navbar-flashed .navbar-brand img {
   width: 60px;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h4 {
+  margin-bottom: 0 !important;
+}
+
 .navbar-flashed .navbar-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 150%;
 }
 
 .navbar-flashed .nav-link {
