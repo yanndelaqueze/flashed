@@ -16,6 +16,7 @@ class CitiesController < ApplicationController
 
   def show
     @invaders = @city.invaders.order(name: :asc)
+    @bookmark = Bookmark.new
     authorize @city
   end
 

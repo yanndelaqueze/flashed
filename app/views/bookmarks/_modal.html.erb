@@ -1,4 +1,4 @@
-<div class="modal fade" id="new_bookmark_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="new_bookmark_modal_<%= invader.name %>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-id="modal_<%= invader.name %>">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -17,7 +17,7 @@
             <p>Map this Invader</p>
             <div class="mapping-input">
               <%= f.input :address, placeholder: "Address", :label => "Address" %>
-              <%= image_tag "target.png", alt:"target", class: "target"%>
+              <%= image_tag "target.png", alt:"target", id: "target"%>
             </div>
             <div class="mapping-output">
               <%= f.input :lat, placeholder: "Latitude", :label => "Latitude" %>
@@ -32,16 +32,3 @@
     </div>
   </div>
 </div>
-
-<script>
-
-// const getCoordinates = (event) => {
-// // console.log(event);
-// }
-
-const modal = dialog.querySelector('.modal');
-// console.log(modal);
-// const targets = document.querySelectorAll('.target');
-// target.forEach( (locator) => locator.addEventListener('click', getCoordinates));
-
-</script>

@@ -9,3 +9,38 @@
     <% end %>
   </div>
 </div>
+
+<script>
+
+// Get all "open modal" buttons
+const openModalButtons = document.querySelectorAll('.add');
+console.log(openModalButtons);
+
+// Identify the modal that's open
+openModalButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    console.log(event);
+// Get the ID of the open modal
+    const modalId = button.getAttribute('data-bs-target');
+    console.log(modalId);
+    const modal = document.querySelector(`${modalId}`);
+    console.log(modal);
+// Find the Target button
+    const target = modal.querySelector('#target');
+    console.log(target);
+    target.addEventListener('click', (event) => {
+      getCoords();
+    });
+  });
+});
+
+function getCoords() {
+    console.log("user location controller is live")
+    navigator.geolocation.getCurrentPosition((info) => {
+      const lat = info.coords.latitude;
+      const lon = info.coords.longitude;
+      console.log(`${lat}, ${lon}`);
+    });
+  }
+
+</script>
