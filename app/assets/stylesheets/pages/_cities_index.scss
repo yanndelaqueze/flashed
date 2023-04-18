@@ -5,7 +5,6 @@
 }
 
 .city-marker {
-  background: white;
   height: 4vh;
   width: 4vh;
   display: flex;
@@ -14,12 +13,25 @@
 }
 
 .city-marker a {
-  color: black !important;
+  color: #0EFF00 !important;
   padding: 0;
   margin: 0 !important;
   font-family: 'VT323', monospace;
   font-size: 150%;
   text-align: center;
+}
+
+.city-marker a:hover {
+  color: #FFF103 !important;
+  padding: 0;
+  margin: 0 !important;
+  font-family: 'VT323', monospace;
+  font-size: 150%;
+  text-align: center;
+}
+
+.mapboxgl-map {
+  margin-bottom: 4%;
 }
 
 .cities {
@@ -28,4 +40,16 @@
   grid-gap: 0.75rem; /* To define the gap between rows/columns */
   gap: 0.75rem;
   padding: 0.75rem;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  margin-top: 2%
+}
+
+.country-info h4 {
+  margin-bottom: 0;
+  padding-left: 1%;
+
 }

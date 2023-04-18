@@ -2,6 +2,7 @@ require "nokogiri"
 require "json"
 require 'yaml'
 
+Bookmark.delete_all
 Invader.delete_all
 City.delete_all
 

@@ -6,10 +6,23 @@
     data-map-markers-value="<%= @markers.to_json %>"
     data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
   </div>
-  <h3>Cities :</h3>
   <ul>
     <% @countries.each do |country| %>
-      <h4><%= country %></h4>
+      <div class="country-info">
+        <% case country %>
+        <% when "France" %>
+          <%= image_tag "flags/FR.png", alt:"France", class: "flag"%>
+        <% when "United Kingdom" %>
+          <%= image_tag "flags/UK.png", alt:"UK", class: "flag"%>
+        <% when "Italy" %>
+          <%= image_tag "flags/IT.png", alt:"Italy", class: "flag"%>
+        <% when "Spain" %>
+          <%= image_tag "flags/ES.png", alt:"Spain", class: "flag"%>
+        <% when "Switzerland" %>
+          <%= image_tag "flags/CH.png", alt:"Switzerland", class: "flag"%>
+        <% end %>
+        <h4><%= country %></h4>
+      </div>
       <div class="cities">
         <% @cities.where(country: country).each do |city| %>
           <%= link_to "#{city.name} (#{city.invaders.count})", city_path(city) %>
